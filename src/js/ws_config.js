@@ -57,7 +57,7 @@ config.assetName = 'TurtleCoin';
 // your currency ticker
 config.assetTicker = 'TRTL';
 // your currency address prefix, for address validation
-config.addressPrefix = 'TRTL';
+config.addressPrefix = 'Tg';
 // standard wallet address length, for address validation
 config.addressLength = 99;
 // integrated wallet address length, for address validation. Added length is length of payment ID encoded in base58.
