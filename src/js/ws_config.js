@@ -2,13 +2,13 @@ var config = {};
 
 // self explanatory, your application name, descriptions, etc
 config.appName = 'WalletShell';
-config.appDescription = 'TurtleCoin Wallet';
+config.appDescription = 'TurtleGold Wallet';
 config.appSlogan = 'Slow and steady wins the race!';
 config.appId = 'lol.turtlecoin.walletshell';
-config.appGitRepo = 'https://github.com/turtlecoin/turtle-wallet-electron';
+config.appGitRepo = 'https://github.com/turtlegold/turtlegold-wallet-electron';
 
 // default port number for your daemon (e.g. TurtleCoind)
-config.daemonDefaultRpcPort = 11898;
+config.daemonDefaultRpcPort = 42068;
 
 // wallet file created by this app will have this extension
 config.walletFileDefaultExt = 'twl';
@@ -25,7 +25,7 @@ config.walletServiceBinaryVersion = "v0.13.0";
 config.walletServiceConfigFormat = "json";
 
 // default port number for your wallet service (e.g. turtle-service)
-config.walletServiceRpcPort = 8070;
+config.walletServiceRpcPort = 42061;
 
 // block explorer url, the [[TX_HASH]] will be substituted w/ actual transaction hash
 config.blockExplorerUrl = 'https://explorer.turtlecoin.lol/transaction.html?hash=[[TX_HASH]]';
