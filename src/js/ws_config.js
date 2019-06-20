@@ -11,7 +11,7 @@ config.appGitRepo = 'https://github.com/turtlegold/turtlegold-wallet-electron';
 config.daemonDefaultRpcPort = 42061;
 
 // wallet file created by this app will have this extension
-config.walletFileDefaultExt = 'twl';
+config.walletFileDefaultExt = 'tgw';
 
 // change this to match your wallet service executable filename
 config.walletServiceBinaryFilename = 'TurtleGold-service';
@@ -31,7 +31,7 @@ config.walletServiceRpcPort = 1337;
 config.blockExplorerUrl = 'https://explorer.turtlecoin.lol/transaction.html?hash=[[TX_HASH]]';
 
 // default remote node to connect to, set this to a known reliable node for 'just works' user experience
-config.remoteNodeDefaultHost = 'turtlenode.co';
+config.remoteNodeDefaultHost = 'trtg.turbomine.co:42061';
 
 
 // remote node list update url, set to null if you don't have one
