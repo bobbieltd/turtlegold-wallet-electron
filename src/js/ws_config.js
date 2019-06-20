@@ -1,23 +1,23 @@
 var config = {};
 
 // self explanatory, your application name, descriptions, etc
-config.appName = 'WalletShell';
+config.appName = 'GoldShell';
 config.appDescription = 'TurtleGold Wallet';
 config.appSlogan = 'Slow and steady wins the race!';
 config.appId = 'lol.turtlecoin.walletshell';
 config.appGitRepo = 'https://github.com/turtlegold/turtlegold-wallet-electron';
 
 // default port number for your daemon (e.g. TurtleCoind)
-config.daemonDefaultRpcPort = 42068;
+config.daemonDefaultRpcPort = 42061;
 
 // wallet file created by this app will have this extension
 config.walletFileDefaultExt = 'twl';
 
 // change this to match your wallet service executable filename
-config.walletServiceBinaryFilename = 'turtle-service';
+config.walletServiceBinaryFilename = 'TurtleGold-service';
 
 // version on the bundled service (turtle-service)
-config.walletServiceBinaryVersion = "v0.13.0";
+config.walletServiceBinaryVersion = "v0.1.0";
 
 // config file format supported by wallet service, possible values:
 // ini -->  for turtle service (or its forks) version <= v0.8.3
@@ -25,7 +25,7 @@ config.walletServiceBinaryVersion = "v0.13.0";
 config.walletServiceConfigFormat = "json";
 
 // default port number for your wallet service (e.g. turtle-service)
-config.walletServiceRpcPort = 42061;
+config.walletServiceRpcPort = 1337;
 
 // block explorer url, the [[TX_HASH]] will be substituted w/ actual transaction hash
 config.blockExplorerUrl = 'https://explorer.turtlecoin.lol/transaction.html?hash=[[TX_HASH]]';
@@ -45,21 +45,21 @@ config.remoteNodeListFiltered = true;
 
 // fallback remote node list, in case fetching update failed, fill this with known to works remote nodes
 config.remoteNodeListFallback = [
-  'turtlenode.co:11898',
-  'nodes.hashvault.pro:11898',
-  'turtle.mine.nu:11898',
+  'trtg.turbomine.co:42061',
+  '127.0.0.1:42061',
+  'trtg.node.stx.nl:42061',
 ];
 config.remoteNodeCacheSupported = false;
 config.remoteNodeSslSupported = false;
 
 // your currency name
-config.assetName = 'TurtleCoin';
+config.assetName = 'TurtleGoin';
 // your currency ticker
-config.assetTicker = 'TRTL';
+config.assetTicker = 'TRTG';
 // your currency address prefix, for address validation
 config.addressPrefix = 'Tg';
 // standard wallet address length, for address validation
-config.addressLength = 99;
+config.addressLength = 97;
 // integrated wallet address length, for address validation. Added length is length of payment ID encoded in base58.
 config.integratedAddressLength = config.addressLength + ((64 * 11) / 8);
 
