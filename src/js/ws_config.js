@@ -38,7 +38,7 @@ config.remoteNodeDefaultHost = 'trtg.turbomine.co:42061';
 // for TRTL:
 // raw list: https://raw.githubusercontent.com/turtlecoin/turtlecoin-nodes-json/master/turtlecoin-nodes.json
 // filtered: https://trtl.nodes.pub/api/getNodes
-config.remoteNodeListUpdateUrl = 'https://trtl.nodes.pub/api/getNodes';
+config.remoteNodeListUpdateUrl = '';
 
 // set to false if using raw/unfiltered node list
 config.remoteNodeListFiltered = true;
