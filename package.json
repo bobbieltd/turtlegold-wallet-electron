@@ -2,7 +2,7 @@
   "name": "GoldShell",
   "productName": "GoldShell",
   "description": "TurtleGold GUI Wallet",
-  "version": "v0.1.0",
+  "version": "v0.2.0",
   "homepage": "https://github.com/turtlegold/turtlegold-wallet-electron",
   "repository": "https://github.com/turtlecoin/turtlegold-wallet-electron",
   "main": "main.js",
